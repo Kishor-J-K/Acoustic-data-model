@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+.env.*
+envScriptsactivate
+
+# Large generated model artifacts
+*.pth
+*.pt
+*.ckpt
+
+# Local datasets and generated audio
+audio/
+acoustic_audio/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
